@@ -1,0 +1,29 @@
+resume_video_creator/
+├── pyproject.toml
+├── setup.cfg
+├── README.md
+├── requirements.txt
+├── resume_video_creator/
+│   ├── __init__.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── resume_parser.py
+│   │   ├── script_generator.py
+│   │   ├── tts_generator.py
+│   │   └── video_generator.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── gpt_model.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   └── helpers.py
+│   └── api/
+│       ├── __init__.py
+│       └── routes.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_resume_parser.py
+│   ├── test_script_generator.py
+│   └── test_video_generator.py
+└── streamlit_app/
+    └── app.py 
